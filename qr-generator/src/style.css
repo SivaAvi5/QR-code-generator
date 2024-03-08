@@ -1,0 +1,45 @@
+.qr-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header{
+    font-size: 4rem;
+}
+.input-container{
+    display: flex;
+    
+    align-items: center;
+    gap: .8rem;
+
+}
+
+input{
+    font-size: inherit;
+    width: 14rem;
+    padding: .8rem;
+    border-radius: 1rem;
+
+}
+button{
+    font-size: large;
+    width: 12rem;
+    color: whitesmoke;
+    background-color: black;
+    padding: .8rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+button:disabled{
+    opacity: 60%;
+    color: rgb(100, 104, 108);
+}
+
+#qr-code-value{
+    margin-top: 1rem;
+}
